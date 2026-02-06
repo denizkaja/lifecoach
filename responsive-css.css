@@ -1,0 +1,281 @@
+
+/*Mobile*/
+
+@media screen and (max-width:428px) {
+
+    #hero {
+        padding:10px 3%;
+    }
+
+    header {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+
+    }
+
+    nav {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+
+    }
+
+    .nav-items {
+        font-size: 20px;
+
+
+    }
+
+    .header-cta-btn {
+
+        font-size: 20px;
+    }
+
+    .hero-content {
+
+        display:flex;
+        flex-direction: column-reverse;
+        padding-top: 25px;
+
+  
+    }
+
+    .hero-img {
+    width: 80%;
+  
+    }
+    
+
+
+    .left-content  h1 {
+
+    font-size: 1.5rem;
+
+    }
+
+    .left-content  p {
+
+    font-size: 18px;
+
+    }
+
+
+    /*Service*/
+    #service {
+        padding: 50px 3%;
+    }
+
+     .service-card {
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .card {
+        height: 350px;
+        width: 250px;
+    }
+
+    /*About */
+    #about{
+        padding:50px 3%;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }    
+
+    /*Booking*/
+    #booking{
+        padding:50px 3%;
+
+    }
+
+    .booking-content{
+        display: flex;
+        flex-direction: column;
+    
+      
+    }
+
+    .booking-img{
+        display: none;
+    }
+
+
+    /*Footer */
+    #footer{
+    display:grid;
+    grid-template-columns: 1fr ;
+    padding: 50px 3%;
+    gap:50px;
+    
+    }
+
+
+
+
+}
+
+
+/*Tablets*/
+
+@media screen and (min-width:429px) and (max-width:1279px){
+
+    #hero {
+        padding:10px 3%;
+    }
+
+    header {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+
+    }
+
+    nav {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+
+    }
+
+    .nav-items {
+        font-size: 22px;
+
+
+    }
+
+    .header-cta-btn {
+
+        font-size: 22px;
+    }
+
+    .hero-content {
+
+        display:flex;
+        flex-direction: column-reverse;
+        padding-top: 25px;
+
+  
+    }
+
+    .hero-img {
+    width: 90%;
+  
+    }
+    
+
+
+    .left-content  h1 {
+
+    font-size: 3rem;
+
+    }
+
+    .left-content  p {
+
+    font-size: 22px;
+
+    }
+    .big-cta-btn {
+
+    font-size: 22px;    
+
+    }
+
+
+    /*Service*/
+
+    #service {
+    padding:50px 10% ;
+    }
+
+    .service-card {
+        grid-template-columns: 1fr 1fr;
+    }
+     /*About */
+     .about-content  {
+        display:flex;
+        flex-direction: column;
+        gap:40px;
+    }
+
+
+.section-title {
+    font-size: 3rem; 
+}
+
+
+
+
+.card {
+  
+    
+    margin-bottom: 30px;
+
+    
+}
+
+/*booking*/
+
+.booking-content{
+        display: flex;
+        flex-direction: column;
+    
+      
+    }
+
+
+.booking-img {
+    display:none;
+    
+}
+ 
+ /*Footer */
+    #footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 3%;
+    gap:50px;
+    
+    }
+
+    .footer-item {
+        font-size: 20px;
+    }
+
+
+}
+
+ 
+
+
+
+/*Laptops*/
+
+@media screen and (min-width:1280px) and (max-width:1919px){
+
+    #hero {
+        padding:0 10%;
+    }
+
+    .hero-content {
+
+    
+        padding-top: 25px;
+
+  
+    }
+
+    .left-content {
+    display: flex;
+    align-items:start;
+
+
+}
+
+}
